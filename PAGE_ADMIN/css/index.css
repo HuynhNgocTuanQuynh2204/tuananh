@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#header {
+    background-color:rgb(50, 50, 50);
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+
+#topmenu {
+    line-height:30px;
+    background-color:#b9b9b9;
+    height: 500px;
+    width:200px;
+    float:left;
+}
+#topmenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #b9b9b9;
+}
+
+#topmenu li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+#topmenu li a:hover {
+    background-color: #555;
+    color: rgb(255, 255, 255);
+}
+#content {
+    width:100%;
+    float:right;
+    padding:10px;
+}
+
+.list_catalogs{
+    display: flex;
+}
+.list_catalog_items{
+    list-style: none;
+    height: 200px;
+    font-size: 25px;
+    color: white;
+    line-height: 200px;
+    border-radius: 5px;
+
+
+}
+.list_catalogs a {
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    margin: 0px 7px;
+    padding-top: 36px;
+}
+
+#footer {
+    background-color:#F6f7f7;
+    color:rgb(0, 0, 0);
+    clear:both;
+    text-align:center;
+    padding:5px;
+}
+
+.dropdown-content {
+display: none;
+position:relative;
+background-color: #f9f9f9;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
